@@ -1,0 +1,11 @@
+.flooring {
+    &_section{
+        height: 630px;
+        background: #f6f1eb url(../../assets/img/bg.png) no-repeat center center;
+        background-size: cover;
+        padding-top: 2em;
+        &_details{
+            @include dflex;
+        }
+    }
+}

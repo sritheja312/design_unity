@@ -1,0 +1,14 @@
+
+
+@mixin heading{
+    color: #b84b4b;
+    font-family: Rollgates Luxury;
+    text-align: center;
+    font-weight: 100;
+    text-transform: uppercase;
+}
+@mixin dflex($dflex:flex, $justify-content:center) {
+    display: $dflex;
+    align-items: center;
+    justify-content: justify-content;
+}
