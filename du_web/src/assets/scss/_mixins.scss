@@ -10,5 +10,5 @@
 @mixin dflex($dflex:flex, $justify-content:center) {
     display: $dflex;
     align-items: center;
-    justify-content: justify-content;
+    justify-content: $justify-content;
 }

@@ -5,7 +5,9 @@
         background-size: cover;
         padding-top: 2em;
         &_details{
-            @include dflex;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
         }
     }
 }
